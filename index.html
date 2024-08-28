@@ -6,17 +6,23 @@
     <title>To Do List</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 id="heading">ToDo List <strong>+</strong></h1>
     <div class="cointainer"> 
-        <form class="form">
+        <form class="form" id="form">
             <input type="text" name="task" id="task" placeholder="Task to be done">
-            <input type = "submit" value ="Add">  
-        </form> 
-    </div>
+            <input type = "submit" value ="Add" id="submit">  
+        </form>
+        <div class="flexBox">
+            <p class="goal">
+                Make Todo list App
+            </p>
+        <img src="https://img.icons8.com/?size=100&id=FtLmdPsoq9br&format=png&color=000000" class="icon" alt="tickIcon">
+        <img src=" https://img.icons8.com/?size=100&id=pre7LivdxKxJ&format=png&color=000000" class="icon" alt="deleteIcon">
+        </div> 
     <script src="script.js"></script>
 </body>
 </html>

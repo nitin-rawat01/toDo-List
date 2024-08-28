@@ -37,6 +37,7 @@ body{
     margin-right: 30px;
     font-size: 1.25rem;
     padding: 5px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 /* to remove outline from input field */
@@ -51,8 +52,32 @@ input[type ="submit"]{
     border: 3px solid #1a9ce1;
     background-color: #1a9ce1;
     border-radius: 10px;   
+    cursor: pointer;
 }
-
-
-  
-     
+.flexBox{
+    display: flex;
+    gap: 1.5rem;
+}
+.goal{ 
+    flex-shrink: 0;
+    position: relative;
+    font-family:sans-serif;
+    background-color: #fff;
+    font-size: 1.20rem;
+    text-align:left;
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 25px;
+    padding-left:5px;
+    border: 3px solid rgb(151, 200, 204);
+    border-radius: 10px;
+}
+.icon{
+    width: 50px;
+    object-fit: contain;
+    cursor: pointer;  
+}
+.icon:hover{
+    margin-top: 10px;
+}
