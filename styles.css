@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+    
+}
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+body{
+    background-color: #8bcdf0;
+    text-align: center;
+}
+#heading{
+  font-family: "Moderustic";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.8px;
+}
+#heading strong{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.cointainer{
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 35px 20px ;
+    width: 600px;
+    border-radius: 10px;;
+    border: 1px solid whitesmoke;
+}
+#task{
+    display: inline-block;
+    border: 3px solid rgb(151, 200, 204); 
+    width: 70%;
+    height: 50px;
+    margin-right: 30px;
+    font-size: 1.25rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* to remove outline from input field */
+input:focus { 
+    outline: none; /* now add border property to input field*/
+  }
+button{
+    width:15%;
+    height: 3rem;
+    font-size: 20px;
+    color:#fff;
+    border: 3px solid #1a9ce1;
+    background-color: #1a9ce1;
+    border-radius: 10px;   
+}
+
+  
+     

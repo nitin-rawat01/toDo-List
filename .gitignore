@@ -1,0 +1,2 @@
+# Files mention in gitignore will not be track by git
+notes.txt
