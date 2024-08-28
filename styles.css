@@ -43,7 +43,7 @@ body{
 input:focus { 
     outline: none; /* now add border property to input field*/
   }
-button{
+input[type ="submit"]{
     width:15%;
     height: 3rem;
     font-size: 20px;
