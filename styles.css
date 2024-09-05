@@ -60,18 +60,23 @@ input[type ="submit"]{
 }
 .goal{ 
     flex-shrink: 0;
-    position: relative;
     font-family:sans-serif;
-    background-color: #fff;
-    font-size: 1.20rem;
+    /* background-color: #ffffff; */
+    background-color: #64b2dc;
+    font-size: 1.30rem;
     text-align:left;
     width: 70%;
     height: 50px;
     line-height: 50px;
     margin-left: 25px;
     padding-left:5px;
-    border: 3px solid rgb(151, 200, 204);
-    border-radius: 10px;
+    border: 3px solid rgb(36, 182, 196);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+.taskComplete{
+    text-decoration: line-through;
 }
 .icon{
     width: 50px;
