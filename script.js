@@ -2,14 +2,12 @@ const form = document.querySelector('form');
 const container = document.querySelector('.cointainer');
 
 form.addEventListener('submit', function(e){
-    // console.log(taskNumber);
     e.preventDefault();
     const userInput = document.querySelector('#task').value;
     console.log(userInput);
     taskVerification(userInput); 
 })
 
-// console.log(taskNumber());
 function taskVerification(userInput){
     if(!userInput){
         alert('Please Enter a Task!');
@@ -34,8 +32,7 @@ function reloadTask(){
 reloadTask();
 
 function addTask(userInput, taskNumber){
-    // userInput.value = " "; //this is not working
-    form.reset(); //this is working
+    form.reset(); 
 
     var div = document.createElement('div');
     div.classList.add('flexBox');
@@ -61,8 +58,6 @@ function addButtons(div, p, taskNumber){
     crossTask(checkBtn, p);
     deleteTask(deleteBtn, div);
 }
-
-// Why they work: no idea 
 
 function crossTask(checkBtn, p ){
    checkBtn.addEventListener('click', function(e){
